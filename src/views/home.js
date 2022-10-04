@@ -48,11 +48,11 @@ function HomeScreen({navigation, route}) {
     perusahaan: {PT: 'website', jasa: 'Web App'},
   };
 
-  AsyncStorage.setItem('object', JSON.stringify(Object), () => {
-    AsyncStorage.getItem('object', (err, result) => {
-      console.log(result);
-    });
-  });
+  // AsyncStorage.setItem('object', JSON.stringify(Object), () => {
+  //   AsyncStorage.getItem('object', (err, result) => {
+  //     console.log(result);
+  //   });
+  // });
   // console.log(detail);
   return (
     <ScrollView style={styles.Container}>
@@ -62,9 +62,12 @@ function HomeScreen({navigation, route}) {
           <Text style={styles.textWelcome}>Welcome to Baby Spa</Text>
         </View>
         <TouchableOpacity
-          onPress={function () {
+          onPress={async function () {
             dispatch(storeAge('24'));
             setDetail('Andi');
+            await AsyncStorage.setItem('object', JSON.stringify(Object));
+            const object = await AsyncStorage.getItem('object');
+            console.log(object);
           }}>
           <Icon name="bell" size={20} style={styles.iconNotif}></Icon>
         </TouchableOpacity>
