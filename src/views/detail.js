@@ -8,8 +8,7 @@ function Detail({navigation}) {
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>Detail Screen</Text>
       <Text>{route.params.user}</Text>
-      <Button
-        title="Referral"
+      <Button title="Referral"
         onPress={function () {
           navigation.navigate('referral');
         }}></Button>

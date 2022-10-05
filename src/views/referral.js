@@ -13,32 +13,21 @@ const Referral = () => {
         <Text style={{fontWeight: 'bold'}}>Undang Teman Kamu</Text> .
       </Text>
       <View style={styles.viewShadowTop}>
-        <View
-          style={{flexDirection: 'row', marginHorizontal: 20, marginTop: 10}}>
+        <View style={{flexDirection: 'row', marginHorizontal: 20, marginTop: 10}}>
           <Icon name="users" style={styles.iconUser}></Icon>
           <View>
             <Text style={styles.iconText}>Nama Program </Text>
             <Text style={{fontWeight: 'bold'}}>Undangan Teman Kamu</Text>
           </View>
         </View>
-        <View
-          style={{
-            flexDirection: 'row',
-            marginTop: 10,
-            marginHorizontal: 20,
-            marginBottom: 10,
-          }}>
+        <View style={{ flexDirection: 'row', marginTop: 10, marginHorizontal: 20, marginBottom: 10, }}>
           <Icon name="calendar" style={styles.iconUser}></Icon>
           <View>
             <Text style={styles.iconText}>Nama Program</Text>
             <Text style={{fontWeight: 'bold'}}>Undangan Teman Kamu</Text>
           </View>
         </View>
-        <View
-          style={{
-            height: 1,
-            backgroundColor: '#D8D8D8',
-          }}></View>
+        <View style={{ height: 1, backgroundColor: '#D8D8D8', }}></View>
         <View style={styles.buttonText}>
           <Button title="Daftarkan Temanmu" color="#FD841F"></Button>
         </View>
@@ -47,18 +36,9 @@ const Referral = () => {
         <Text style={styles.textCard}>Voucher yang Didapat</Text>
         <Text style={styles.voucherCard}>0 Voucher</Text>
         <Text style={styles.sediaCard}>Voucher tersedia</Text>
-        <View
-          style={{
-            height: 1,
-            backgroundColor: '#D8D8D8',
-          }}></View>
+        <View style={{ height: 1, backgroundColor: '#D8D8D8', }}></View>
         <Text style={styles.textCardB}>Referral Kamu</Text>
-        <View
-          style={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            paddingHorizontal: 30,
-          }}>
+        <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingHorizontal: 30, }}>
           <View style={{flexDirection: 'row', flex: 1}}>
             <Text style={styles.textCardc}>0</Text>
             <Text style={styles.textCardD}>Teman Bergabung</Text>
@@ -73,12 +53,7 @@ const Referral = () => {
           <Button title="Cara Penggunaan"></Button> */}
           <Text style={styles.textSyaratB}>Cara Penggunaan</Text>
         </View>
-        <View
-          style={{
-            height: 1,
-            backgroundColor: '#D8D8D8',
-            marginBottom: 15,
-          }}></View>
+        <View style={{ height: 1, backgroundColor: '#D8D8D8', marginBottom: 15, }}></View>
         <View style={styles.syaratA}>
           <Unorderedlist bulletUnicode={0x2022} style={{fontSize: 20}}>
             <Text style={{fontSize: 12, fontWeight: 'bold'}}>
@@ -86,13 +61,7 @@ const Referral = () => {
               transaksi yang berjalan di akun kamu, serta tidak memiliki
               tanggungan cicilan pinjaman online
             </Text>
-            <View
-              style={{
-                height: 1,
-                backgroundColor: '#D8D8D8',
-                marginTop: 15,
-                marginBottom: 15,
-              }}></View>
+            <View style={{ height: 1, backgroundColor: '#D8D8D8', marginTop: 15, marginBottom: 15, }}></View>
           </Unorderedlist>
         </View>
         <View style={styles.syaratA}>
@@ -101,13 +70,7 @@ const Referral = () => {
               Data email/nomor handphone pada akun yang sudah dinonaktifkan
               tidak dapat digunakan kembali atau didaftarkan pada akun lainnya.
             </Text>
-            <View
-              style={{
-                height: 1,
-                backgroundColor: '#D8D8D8',
-                marginTop: 15,
-                marginBottom: 15,
-              }}></View>
+            <View style={{ height: 1, backgroundColor: '#D8D8D8', marginTop: 15, marginBottom: 15, }}></View>
           </Unorderedlist>
         </View>
         <View style={styles.syaratA}>
@@ -115,13 +78,7 @@ const Referral = () => {
             <Text style={{fontSize: 12, fontWeight: 'bold'}}>
               Pastikan sudah menggunakan Poin Meyerfood yang kamu miliki.
             </Text>
-            <View
-              style={{
-                height: 1,
-                backgroundColor: '#D8D8D8',
-                marginTop: 15,
-                marginBottom: 25,
-              }}></View>
+            <View style={{ height: 1, backgroundColor: '#D8D8D8', marginTop: 15, marginBottom: 25, }}></View>
           </Unorderedlist>
         </View>
       </View>
